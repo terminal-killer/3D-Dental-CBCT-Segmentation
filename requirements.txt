@@ -1,0 +1,27 @@
+# CBCT Dental Segmentation — dependencies
+#
+# NOTE ON TORCH: install this one FIRST, separately, via PyTorch's own index
+# so you get the CUDA build (plain PyPI only has CPU wheels for some platforms):
+#
+#   pip install torch==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+#
+# Then install everything below as normal:
+#
+#   pip install -r requirements.txt
+
+# --- Core ML / data pipeline ---
+numpy==2.4.4
+nibabel==5.4.2
+scipy==1.17.1
+
+# --- Visualization / reporting ---
+matplotlib==3.11.0
+plotly==6.8.0
+
+# --- Training utilities ---
+tqdm==4.68.3
+
+# --- Web app (backend) ---
+fastapi==0.139.0
+uvicorn==0.50.2
+python-multipart==0.0.32
