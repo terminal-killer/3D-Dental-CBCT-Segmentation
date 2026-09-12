@@ -141,4 +141,4 @@ Python, PyTorch, FastAPI, Uvicorn, Plotly, Matplotlib, NiBabel, vanilla HTML/CSS
 
 ## Author
 
-Satej
+- **Satej** ([@terminal-killer](https://github.com/terminal-killer))
